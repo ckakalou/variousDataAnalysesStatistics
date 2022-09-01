@@ -1,0 +1,51 @@
+Patient's id;drug;adverse reaction;Liverpool Algorithm;Rater1;Rater2
+1;setraline;cholesterol;Possible;No;No
+2;furosemide;hypokalemia;Probable;Yes;Yes
+3;furosemide;hypokalemia;Possible;No;Yes
+4;Indapamide;hypokalemia;Definite;Yes;Yes
+5;levomepromazine;cholesterol;-;No;No
+6;donepezil;hypokalemia;Possible;No;No
+7;citalopram;liver disease;Possible;No;No
+8;metoprolol;increased liver enzyme;Possible;No;No
+9;metformin;hypomagnesemia;Possible;No;No
+10;amiodarone;hyponatremia;Possible;No;No
+11;flecainide;hypokalemia;Possible;No;No
+12;omeprazole;hypokalemia;Possible;No;No
+13;levodopa;hyperbilirubinemia;-;No;No
+14;hyperbilirubinemia;cholesterol;-;No;No
+15;lamotrigine;hyponatremia;Probable;Yes;Yes
+16;brivaracetam;increased liver enzyme;-;No;No
+17;pregabalin;hyponatremia;Possible;No;No
+18;pravastatin;phosphokinase (CPK);Possible;No;Yes
+19;Indapamide;hyponatremia;Definite;Yes;Yes
+20;metoprolol;uric acid;Possible;No;No
+21;omeprazole;hyponatremia;Possible;Yes;No
+22;venlafaxine;hyponatremia;Probable;Yes;Yes
+23;setraline;hypokalemia;Possible;No;No
+24;omeprazole;hypocalcemia;Probable;Yes;Yes
+25;carbamazepine;hypocalcemia;Possible;No;No
+26;daptomyscin;thrombocytopenia;Possible;No;No
+27;colistin;acute renal failure;Probable;Yes;Yes
+28;linezolid;liver disease;-;No;No
+29;vancomycin;pancytopenia;Possible;No;Yes
+30;meropenem;liver disease;-;No;Yes
+31;moxifloxacin;neutropenia;Possible;No;No
+32;metronidazole;thrombocytopenia;Possible;No;Yes
+33;daptomyscin;diarrhea;Possible;No;No
+34;ibuprofen;eosinophilia;Probable;Yes;Yes
+35;ampicillin;seizures;Probable;Yes;Yes
+36;enoxaparine;hyponatremia;Possible;No;No
+37;voriconazole;hepatotoxicity;Probable;Yes;Yes
+38;quetiapine;neutrpenia;Probable;Yes;Yes
+39;metronidazole;seizures;Probable;Yes;Yes
+40;moxifloxacin;hypoglycemia;Probable;Yes;No
+41;omeprazole;diarrhea;-;No;No
+42;furosemide;eosinophilia;Possible;No;No
+43;quetiapine;hyperglycemia;-;No;No
+44;clarithromycin;thrombocytopenia;Possible;Yes;Yes
+45;hydrochlorothiazide;hypercalcemia;-;Yes;Yes
+46;mirtazapine;hypokalemia;-;No;No
+47;amphotericin;hypomagnesemia;Possible;No;No
+48;moxifloxacin;eosinophilia;Possible;No;No
+49;tigecycline;neutropenia;Possible;No;No
+50;meropenem;thrombocytopenia;Possible;No;Yes
