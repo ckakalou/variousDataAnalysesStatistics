@@ -32,3 +32,19 @@ Cohens_Kappa_Unweighted_None <- kappa2(raterNoneMatrix)
 
 Cohens_Kappa_List <- c(Cohens_Kappa_Unweighted$value, Cohens_Kappa_Unweighted_Definite$value, Cohens_Kappa_Unweighted_Possible$value, Cohens_Kappa_Unweighted_None$value)
 AgreementList <- c(Percentage_Agreement$value, Percentage_AgreementDefinite$value, Percentage_AgreementPossible$value, Percentage_AgreementNone$value)
+
+RaterStats_Dataframe <- data.frame(unlist(Cohens_Kappa_List), unlist(AgreementList))
+Agreement_Dataframe <- data.frame(AgreementList)
+
+RaterStats_Dataframe$Agreement <- Agreement_Dataframe
+
+names(RaterStats_Dataframe) = c("CohensKappa","Agreement")
+row.names(RaterStats_Dataframe) <- c("Total", "Defite", "Possible", "N/A")
+RaterStats_Dataframe[is.na(RaterStats_Dataframe)] <- 1
+RaterStats_Dataframe$Agreement <- RaterStats_Dataframe$Agreement / 100
+library(plotly)
+
+fig <- plot_ly(data = RaterStats_Dataframe, x = ~Agreement, y = ~)
+
+fig
+
